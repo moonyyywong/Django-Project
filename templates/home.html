@@ -1,0 +1,45 @@
+<!-- templates/home.html -->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Metafiles</title>
+  <link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="{% static 'app.css' %}">
+</head>
+<body>
+  <div class="padded title">
+    <span class="title">Django Project Metafiles</span>
+    <button type="button" class="float-right btn btn-warning" id="change-button">
+      Metafiles have changed. Click to reload table! </button>
+    <button type="button" class="float-right btn btn-default" disabled id="up-to-date-button">
+      Your metafiles are up to date. </button>
+  </div>
+
+  <div class="padded">
+    <table class="table table-bordered" id="table">
+      <thead>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <div class="padded">
+    View metafiles from:
+    <select class="target">
+      <option value="all">All</option>
+      <option value="hours">Past 24-hours</option>
+      <option value="days">Past 7 days</option>
+      <option value="weeks">Past 4 weeks</option>
+    </select>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.core.min.js"></script>
+<script src="{% static 'app.js' %}"></script>
+<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/plug-ins/1.10.16/sorting/enum.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<script src="//cdn.datatables.net/plug-ins/1.10.16/sorting/datetime-moment.js"></script>
+</body>
+</html>

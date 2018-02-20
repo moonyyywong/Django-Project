@@ -1,0 +1,30 @@
+[
+  {
+    "date": "Jan 1, 2015 13:10:59",
+    "filename": "virusss.exe",
+    "action": "files-deleted",
+    "submit-type": "AB12345678901234/root",
+    "rating": "high-risk"
+  },
+  {
+    "date": "Jan 1, 2015 13:12:59",
+    "filename": "help.exe",
+    "action": "files-added",
+    "submit-type": "BC12345678901234/root",
+    "rating": "low-risk"
+  },
+  {
+    "date": "Feb 02, 2015 13:12:59",
+    "filename": "helper5.exe",
+    "action": "files-added",
+    "submit-type": "BC12345678901234/root",
+    "rating": "low-risk"
+  },
+  {
+    "date": "Jan 1, 2015 13:12:59",
+    "filename": "helper6.exe",
+    "action": "files-added",
+    "submit-type": "AC12345678901234/root",
+    "rating": "low-risk"
+  }
+]

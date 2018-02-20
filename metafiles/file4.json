@@ -1,0 +1,30 @@
+[
+  {
+    "date": "Jan 19, 2015 13:10:59",
+    "filename": "Imavirus.exe",
+    "action": "files-deleted",
+    "submit-type": "BR45345678901234/root",
+    "rating": "high-risk"
+  },
+  {
+    "date": "Feb 2, 2015 13:12:59",
+    "filename": "probablynotvirus.exe",
+    "action": "files-added",
+    "submit-type": "TG12345692901234/root",
+    "rating": "low-risk"
+  },
+  {
+    "date": "Feb 3, 2015 13:12:59",
+    "filename": "maybevirus.exe",
+    "action": "files-added",
+    "submit-type": "BC18245678901234/root",
+    "rating": "low-risk"
+  },
+  {
+    "date": "Jan 1, 2015 13:12:59",
+    "filename": "probablyvirus.exe",
+    "action": "files-deleted",
+    "submit-type": "BC14545678901234/root",
+    "rating": "high-risk"
+  }
+]

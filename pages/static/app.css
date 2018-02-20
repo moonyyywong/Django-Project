@@ -1,0 +1,45 @@
+.padded {
+  padding: 10px;
+}
+
+.title {
+  background-color: #ff7675;
+  color: #fff;
+  font-size: 1.25em;
+}
+
+.malicious {
+  background-color: #ff8080 !important;
+  font-weight: bold;
+}
+
+.high-risk {
+  background-color: #ffbf80 !important;
+}
+
+.medium-risk {
+  background-color: #ffff99 !important;
+}
+
+.low-risk {
+  background-color: #99e6ff !important;
+}
+
+.clean {
+  background-color: #bfff80 !important;
+}
+
+#table {
+  border-top: 3px solid #ff7675;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+thead th {
+  border-bottom: 1px solid #eee !important;
+}
+
+#table > tbody > tr > td {
+  border: 1px solid #eee;
+}

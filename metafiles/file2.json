@@ -1,0 +1,23 @@
+[
+  {
+    "date": "Jan 28, 2018 13:10:59",
+    "filename": "virus2.exe",
+    "action": "files-deleted",
+    "submit-type": "BE12345678901234/root",
+    "rating": "malicious"
+  },
+  {
+    "date": "Feb 12, 2018 13:12:59",
+    "filename": "helper2.exe",
+    "action": "files-added",
+    "submit-type": "EC12345678901234/root",
+    "rating": "medium-risk"
+  },
+  {
+    "date": "Feb 18, 2018 23:12:59",
+    "filename": "safe2.exe",
+    "action": "files-added",
+    "submit-type": "WS12345678901234/root", 
+    "rating": "clean"
+  }
+]
